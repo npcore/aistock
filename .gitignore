@@ -1,0 +1,24 @@
+# 자격증명 — 절대 커밋 금지
+.env
+.env.*
+!.env.example
+*appkey*.txt
+*secretkey*.txt
+data/cache/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# macOS
+.DS_Store
+watchlist.txt
+# 계정별 .env(앱키·봇 토큰)와 캐시
+profiles/
